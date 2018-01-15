@@ -1,0 +1,37 @@
+Here we provide some good test cases for you. Have fun with them!
+
+COMMAND 0:
+	run list all
+
+COMMAND 1:
+	run list local
+
+COMMAND 2:
+	run check circular dependency
+
+COMMAND 3:
+	run check useless
+
+COMMAND 4:
+	run check broken
+
+COMMAND 5:
+	run install linux
+	run install all
+
+COMMAND 6:
+	run install all
+	run uninstall gcc:3 with-dependency
+
+COMMAND 7:
+	run fix autoremove
+	run install all
+	run uninstall all force
+	run fix autoremove
+
+COMMAND 8:
+	run fix autoinstall
+	run install all
+	run uninstall linux:3 force
+	run uninstall gcc:3 force
+	run fix autoinstall
